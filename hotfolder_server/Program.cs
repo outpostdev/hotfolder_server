@@ -61,7 +61,7 @@ namespace hotfolder {
 			if(args.Length >= 2) {
 				if(args[0] == "-mode" && (string.Compare(args[1].Substring(args[1].Length - 4), ".ini") == 0)) {
 					ini_filepath = args[1];
-					// Start counter at 1 to prevent any threads from executing watch callbacks until we have created all the treads.
+					// Start counter at 1 to prevent any threads from executing watch callbacks until we have created all the threads.
 					// Watch callbacks will wait (while n_threads_catching_up != 0).
 					n_threads_catching_up = 1;
 					try {
