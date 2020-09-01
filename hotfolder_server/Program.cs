@@ -8,7 +8,6 @@ using System.Drawing.Imaging;
 using System.Threading;
 using System.Security.Cryptography;
 using System.Collections;
-using System.Collections.Generic;
 
 namespace hotfolder {
 	class Program {
